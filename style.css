@@ -1,1 +1,96 @@
-<link rel="stylesheet" href="styles.css">
+html{
+    background-color: #b4bab2;
+}
+#Title{ 
+    color: #ced9da; 
+    size: 50px;
+    padding: 100px; 
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    
+   
+}
+
+#MentalIllness{
+    color: #3f7579; 
+    font-size: 30px; 
+    display: flex;
+
+}
+
+#source{ 
+    color:white;
+    font-size: 40px; 
+    background-color: rgb(131, 148, 148); 
+    display: flex; 
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.Types{
+    color: rgb(68, 117, 135); 
+    background-color: rgb(193, 221, 218);
+    font-size: 19px; 
+    border-radius: 40px;
+    border-color: rgb(204, 204, 219); 
+    display: flex; 
+    flex-direction: column;
+    align-content: center;
+}
+
+#ExOfMental{
+    padding: 20px;
+    background-color: rgb(184, 208, 205);
+    color: rgb(87, 111, 121); 
+    font-size: 20px; 
+    display: flex; 
+    align-items: center; 
+
+}
+#TypesTitle{
+    color:rgb(13, 104, 146); 
+    font-size: 30px;
+    display: flex; 
+
+}
+
+#MakeBetter{
+    color: rgb(68, 117, 135); 
+    background-color: rgb(193, 221, 218);
+    font-size: 20px; 
+    font-weight: 400;
+    border-color: rgb(204, 204, 219); 
+    display: flex; 
+    flex-direction: column;
+    align-content: center;
+} 
+
+#name{
+    color: rgb(243, 247, 244); 
+    font-size: 16px;
+    display: flex; 
+    align-items: center; 
+    flex-direction: column;
+
+}
+#Extra{
+    color: rgb(243, 247, 244); 
+    font-size: 16px;
+    display: flex; 
+    align-items: center; 
+    flex-direction: column;
+
+}
+
+.sources{
+    color: rgb(58, 118, 96); 
+}
+
+#TitleSource{
+    color: rgb(255, 255, 255) 
+}
