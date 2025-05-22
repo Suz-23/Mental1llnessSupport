@@ -5,6 +5,9 @@ html{
     color: #ced9da; 
     size: 50px;
     padding: 100px; 
+    background-image: url(finalprojectprototype.png);
+    background-size: 890px;
+    background-position: 260px;;
     display: flex;
     align-items: center; 
     flex-direction: column;
@@ -34,10 +37,11 @@ html{
 
 .Types{
     color: rgb(68, 117, 135); 
-    background-color: rgb(193, 221, 218);
+
     font-size: 19px; 
-    border-radius: 40px;
-    border-color: rgb(204, 204, 219); 
+    padding:30px; 
+    padding: 8px; 
+    box-sizing: content-box;
     display: flex; 
     flex-direction: column;
     align-content: center;
@@ -48,8 +52,11 @@ html{
     background-color: rgb(184, 208, 205);
     color: rgb(87, 111, 121); 
     font-size: 20px; 
+    text-align: left;
+    margin: 10px 30px 30px 100px;
     display: flex; 
     align-items: center; 
+
 
 }
 #TypesTitle{
@@ -59,26 +66,20 @@ html{
 
 }
 
-#MakeBetter{
+
+ #MakeBetter{
     color: rgb(68, 117, 135); 
-    background-color: rgb(193, 221, 218);
     font-size: 20px; 
     font-weight: 400;
+
+    padding:40px; 
     border-color: rgb(204, 204, 219); 
     display: flex; 
     flex-direction: column;
     align-content: center;
 } 
 
-#name{
-    color: rgb(243, 247, 244); 
-    font-size: 16px;
-    display: flex; 
-    align-items: center; 
-    flex-direction: column;
-
-}
-#Extra{
+.end{
     color: rgb(243, 247, 244); 
     font-size: 16px;
     display: flex; 
@@ -93,4 +94,49 @@ html{
 
 #TitleSource{
     color: rgb(255, 255, 255) 
+}
+
+#line{
+    color: white; 
+    display: flex; 
+    align-content : center;
+    justify-content: center;
+}
+
+#h1Title{
+    color: rgb(22, 79, 90); 
+    padding: 30px;
+    size: 30px; 
+    display: flex;
+    align-content: flex-end; 
+    justify-content: center;
+    
+    
+}
+
+.btnAnxiety{
+    color: rgb(22, 79, 90); 
+    display: flex;
+    align-content: flex-end; 
+    justify-content: center; 
+}
+
+.TypesOfDepression{
+    color: rgb(37, 82, 37); 
+    padding: 30px; 
+    display: flex; 
+
+}
+
+#homebtn{
+    padding: 20px; 
+    color: rgb(39, 117, 39); 
+    background-color:rgb(153, 174, 153);
+    border-radius: 30%;
+    font-size: 30px;
+}
+
+#P{
+    font-size: 20px;
+
 }
