@@ -19,7 +19,9 @@ html{
     color: #3f7579; 
     font-size: 30px; 
     display: flex;
-
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
 }
 
 #source{ 
@@ -37,14 +39,12 @@ html{
 
 .Types{
     color: rgb(68, 117, 135); 
-
-    font-size: 19px; 
-    padding:30px; 
+    font-size: 25px; 
     padding: 8px; 
-    box-sizing: content-box;
     display: flex; 
-    flex-direction: column;
-    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: space-between;
 }
 
 #ExOfMental{
@@ -63,25 +63,28 @@ html{
     color:rgb(13, 104, 146); 
     font-size: 30px;
     display: flex; 
-
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
 }
 
 
  #MakeBetter{
-    color: rgb(68, 117, 135); 
-    font-size: 20px; 
+    color: rgb(255, 255, 255); 
+    font-size: 35px; 
     font-weight: 400;
-
-    padding:40px; 
-    border-color: rgb(204, 204, 219); 
+    padding: 8px; 
+    background-color: #839395;
+    text-align: center;
     display: flex; 
+    flex-wrap: nowrap; 
     flex-direction: column;
     align-content: center;
 } 
 
 .end{
     color: rgb(243, 247, 244); 
-    font-size: 16px;
+    font-size: 20px;
     display: flex; 
     align-items: center; 
     flex-direction: column;
@@ -151,3 +154,8 @@ h5{
     color: rgb(75, 109, 75);
     padding: 8px; 
 }
+#space{
+    font-size:80px; 
+
+}
+
