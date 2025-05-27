@@ -83,7 +83,7 @@ html{
 } 
 
 .end{
-    color: rgb(243, 247, 244); 
+    color: rgb(69, 88, 91); 
     font-size: 20px;
     display: flex; 
     align-items: center; 
@@ -100,7 +100,7 @@ html{
 }
 
 #line{
-    color: white; 
+    color: rgb(69, 88, 91);
     display: flex; 
     align-content : center;
     justify-content: center;
