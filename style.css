@@ -138,7 +138,9 @@ html{
 
 #Paragraph{
     font-size: 20px;
-
+    padding: 4px;
+    display: flex; 
+    justify-content: space-between;
 
 }
 h4{
